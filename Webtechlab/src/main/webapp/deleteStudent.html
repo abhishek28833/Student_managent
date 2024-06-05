@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delete Student</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Delete Student</h2>
+        <form action="DeleteStudentServlet" method="post">
+            <div class="form-group">
+                <label for="id">Student ID:</label>
+                <input type="text" id="id" name="id" required>
+            </div>
+            <button type="submit">Delete Student</button>
+        </form>
+        <br><br>
+        <button onclick="window.location.href='ViewStudentsServlet'">View All Students</button><br>
+        <br>
+        <button onclick="window.location.href='index.html'">Back to Home</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Student</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Add Student</h2>
+        <form action="StuServlet" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="rollNumber">Roll Number:</label>
+                <input type="text" id="rollNumber" name="rollNumber">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob">
+            </div>
+            <div class="form-group">
+                <label for="eligibilityCriteria">Eligibility Criteria:</label>
+                <input type="text" id="eligibilityCriteria" name="eligibilityCriteria">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        <br><br>
+        <button onclick="window.location.href='ViewStudentsServlet'">View All Students</button>
+        <br><br>
+        <button onclick="window.location.href='updateStudent.html'">Update Student</button>
+        <br><br>
+        <button onclick="window.location.href='deleteStudent.html'">Delete Student</button>
+    </div>
+</body>
+</html>
