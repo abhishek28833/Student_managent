@@ -63,6 +63,9 @@ The Student Management System is designed to streamline the process of managing 
 4. **Deleting a Student**:
 - Go to `deleteStudent.html`, input the student ID, and click `Delete Student` to remove the record.
 
+## Screenshots
+
+![Home page](/index.png)
 
 
 ## Contributing
