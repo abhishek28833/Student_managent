@@ -66,7 +66,10 @@ The Student Management System is designed to streamline the process of managing 
 ## Screenshots
 
 ![Home page](/index.png)
-
+![Add student](/add_students.png)
+![View Databases records](/database_records.png)
+![delete record](/delete_record.png)
+![Update record in database](/update_student_data.png)
 
 ## Contributing
 
